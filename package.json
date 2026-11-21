@@ -1,0 +1,19 @@
+{
+  "name" : "Plateforme-E-Sport-Jeu-de-Nim",
+  "version" : "1.0.0" ,
+  "description" : "Plateforme E-Sport Jeu P2P : jeu de Nim en temps reel dans le navigateurt" ,
+  "private" : true,
+  "types" : "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test" : "node --test tests/"
+  },
+
+  "devDependencies": {
+    "vite": "^8.3.8"
+  }
+}
+
+

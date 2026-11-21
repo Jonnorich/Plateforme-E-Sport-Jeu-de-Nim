@@ -1,0 +1,27 @@
+#Dépendances
+node_modules/
+
+#Sorties de build (npm run build)
+dist/
+
+#Cache de Vite
+.vite/
+*.local
+
+#Couverture des tests
+coverage/
+
+#Fichiers d'environnement
+.env
+.env.*
+!.env.example
+
+#Éditeurs et système
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+#journaux
+*.log
+npm-debug.log*
